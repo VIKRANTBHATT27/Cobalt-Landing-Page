@@ -1,6 +1,6 @@
 import Hero from './Component/Hero'
 import Navbar from './Component/Navbar'
-import ImageComponent from './Component/imageComponent'
+import ImageComponent from './Component/ImageComponent'
 import Footer from './Component/Footer'
 import MiddleElement from './Component/MiddleElement'
 import './App.css'
