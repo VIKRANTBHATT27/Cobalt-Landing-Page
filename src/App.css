@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+@tailwind utilities;
+
+
+button:hover {
+     box-shadow: 0 0 15px 1px oklch(86.309% 0.12698 207.802 / 0.3);
+}
+
+@theme{
+     --font-inter: "Inter", "sans-serif";
+}
+
+@layer utilities {
+     @keyframes grow {
+          0% { transform: scale(0.8); opacity: 0; }
+          100% { transform: scale(1); opacity: 1; }
+     }
+     .animate-grow {
+          animation: grow 0.8s ease-in-out;
+     }
+     /* .headings {
+          @apply max-w-3xl text-7xl text-transparent bg-clip-text font-bold text-center leading-tighter bg-linear-to-br from-white to-neutral-500 selection:bg-cyan-300 selection:text-cyan-900
+     } */
+}
